@@ -11,7 +11,7 @@ public interface UsersRepository extends JpaRepository<Users,Integer> {
             "    first_name,\n" +
             "    last_name\n" +
             "FROM\n" +
-            "    green_engage_v2.users\n" +
+            "    users\n" +
             "WHERE\n" +
             "        user_type = 'CORPORATE'\n" +
             "    AND account_enabled = 'Y'\n" +
